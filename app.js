@@ -5705,7 +5705,7 @@ function nav(path) {
                 <i class="mdui-icon material-icons">search</i>
             </button>
             <form id="search_bar_form" method="get" action="/${cur}:search">
-            <input class="mdui-textfield-input" type="text" name="q" placeholder="Search in current index" value="${search_text}"/>
+            <input class="mdui-textfield-input" type="text" name="q" placeholder="현재 색인에서 검색" value="${search_text}"/>
             </form>
             <button class="mdui-textfield-close mdui-btn mdui-btn-icon" onclick="$('.mdui-select').removeClass('hidedropdown');"><i class="mdui-icon material-icons">close</i></button>
         </div>
@@ -5752,19 +5752,19 @@ function list(path) {
 	  <ul class="mdui-list"> 
 	   <li class="mdui-list-item th"> 
 	    <div class="mdui-col-xs-12 mdui-col-sm-7">
-	     File
+	     파일
 	<i class="mdui-icon material-icons icon-sort" data-sort="name" data-order="more">expand_more</i>
 	    </div> 
 	    <div class="mdui-col-sm-3 mdui-text-right">
-		Date Modified
+		수정한 날짜
 	<i class="mdui-icon material-icons icon-sort" data-sort="date" data-order="downward">expand_more</i>
 	    </div> 
 	    <div class="mdui-col-sm-2 mdui-text-right">
-	     Size
+	     크기
 	<i class="mdui-icon material-icons icon-sort" data-sort="size" data-order="downward">expand_more</i>
 	    </div>
       <div class="mdui-col-sm-2 mdui-text-right dummyclass">
-    Actions
+    액션
   <i class="mdui-icon material-icons icon-sort" data-sort="size" data-order="downward">expand_more</i>
     </div>  
 	    </li> 
@@ -5773,7 +5773,7 @@ function list(path) {
 	 <div class="mdui-row"> 
 	  <ul id="list" class="mdui-list"> 
 	  </ul> 
-	  <div id="count" class="mdui-hidden mdui-center mdui-text-center mdui-m-b-3 mdui-typo-subheading mdui-text-color-blue-grey-500">Total <span class="number"></span> item(s)</div>
+	  <div id="count" class="mdui-hidden mdui-center mdui-text-center mdui-m-b-3 mdui-typo-subheading mdui-text-color-blue-grey-500">총 <span class="number"></span>개 항목</div>
 	 </div>
 	`;
   $("#content").html(content);
@@ -5963,15 +5963,15 @@ function render_search_result_list() {
 	  <ul class="mdui-list"> 
 	   <li class="mdui-list-item th"> 
 	    <div class="mdui-col-xs-12 mdui-col-sm-7">
-	     File
+	     파일
 	<i class="mdui-icon material-icons icon-sort" data-sort="name" data-order="more">expand_more</i>
 	    </div> 
 	    <div class="mdui-col-sm-3 mdui-text-right">
-	     Date Modified
+	     수정한 날짜
 	<i class="mdui-icon material-icons icon-sort" data-sort="date" data-order="downward">expand_more</i>
 	    </div> 
 	    <div class="mdui-col-sm-2 mdui-text-right">
-	     Size
+	     크기
 	<i class="mdui-icon material-icons icon-sort" data-sort="size" data-order="downward">expand_more</i>
 	    </div> 
 	    </li> 
@@ -5980,7 +5980,7 @@ function render_search_result_list() {
 	 <div class="mdui-row"> 
 	  <ul id="list" class="mdui-list"> 
 	  </ul> 
-	  <div id="count" class="mdui-hidden mdui-center mdui-text-center mdui-m-b-3 mdui-typo-subheading mdui-text-color-blue-grey-500">Total <span class="number"></span> item(s)</div>
+	  <div id="count" class="mdui-hidden mdui-center mdui-text-center mdui-m-b-3 mdui-typo-subheading mdui-text-color-blue-grey-500">총 <span class="number"></span>개 항목</div>
 	 </div>
 	 <div id="readme_md" class="mdui-typo" style="display:none; padding: 20px 0;"></div>
 	`;
@@ -6203,11 +6203,11 @@ function file_code(path) {
 <pre id="editor" ></pre>
 </div>
 <div class="mdui-textfield">
-	<label class="mdui-textfield-label">File Name</label>
+	<label class="mdui-textfield-label">파일명</label>
 	<input class="mdui-textfield-input" type="text" value="${file_name}"/>
 </div>
 <div class="mdui-textfield">
-	<label class="mdui-textfield-label">Download Link</label>
+	<label class="mdui-textfield-label">다운로드 링크</label>
 	<input class="mdui-textfield-input" type="text" value="${href}"/>
 </div>
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
@@ -6276,11 +6276,11 @@ function file_video(path) {
 	<br>${playBtn}
 	<!-- ???? -->
   <div class="mdui-textfield">
-	  <label class="mdui-textfield-label">File Name</label>
+	  <label class="mdui-textfield-label">파일명</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
   </div>
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">Download Link</label>
+	  <label class="mdui-textfield-label">다운로드 링크</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 </div>
@@ -6315,11 +6315,11 @@ function file_audio(path) {
 	<br>
 	<!-- ???? -->
   <div class="mdui-textfield">
-	  <label class="mdui-textfield-label">File Name</label>
+	  <label class="mdui-textfield-label">파일명</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
   </div>
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">Download Link</label>
+	  <label class="mdui-textfield-label">다운로드 링크</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 </div>
@@ -6339,11 +6339,11 @@ function file_pdf(path) {
   <br>
 	<!-- ???? -->
   <div class="mdui-textfield">
-	  <label class="mdui-textfield-label">File Name</label>
+	  <label class="mdui-textfield-label">파일명</label>
 	  <input class="mdui-textfield-input" type="text" value="${display_name}"/>
   </div>
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">Download Link</label>
+	  <label class="mdui-textfield-label">다운로드 링크</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
   <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
@@ -6383,15 +6383,15 @@ function file_image(path) {
                     <div class="mdui-col">
                         ${
                           prev_child
-                            ? `<button id="leftBtn" data-filepath="${prev_child}" class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple">Previous</button>`
-                            : `<button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple" disabled>Previous</button>`
+                            ? `<button id="leftBtn" data-filepath="${prev_child}" class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple">이전</button>`
+                            : `<button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple" disabled>이전</button>`
                         }
                     </div>
                     <div class="mdui-col">
                         ${
                           next_child
-                            ? `<button id="rightBtn" data-filepath="${next_child}" class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple">Next</button>`
-                            : `<button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple" disabled>Next</button>`
+                            ? `<button id="rightBtn" data-filepath="${next_child}" class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple">다음</button>`
+                            : `<button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple" disabled>다음</button>`
                         }
                     </div> 
                 </div>
@@ -6408,11 +6408,11 @@ function file_image(path) {
     </div>
 	<br>
   <div class="mdui-textfield">
-	  <label class="mdui-textfield-label">File Name</label>
+	  <label class="mdui-textfield-label">파일명</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
   </div>
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">Download Link</label>
+	  <label class="mdui-textfield-label">다운로드 링크</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
         <br>
