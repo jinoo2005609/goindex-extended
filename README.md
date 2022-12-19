@@ -156,4 +156,4 @@ If you are comfortable reading comments in the code, here you go: [goindex-exten
 
 ## ⚖ LICENSE
 
-**_[GoIndex - Extended](https://github.com/jinoo2005609/goindex-extended) by [jinoo2005609(AKA Dudu)](https://github.com/jinoo2005609/) is licensed under the [MIT License](https://opensource.org/licenses/MIT), which you can find in the [goindex-extended/LICENSE](https://github.com/jinoo2005609/goindex-extended/blob/master/LICENSE) file._**
+**_[GoIndex - Extended](https://github.com/jinoo2005609/goindex-extended) by [Cheems(AKA Dudu)](https://github.com/cheems/) Korean translated by [jinoo2005609](https://github.com/jinoo2005609/) is licensed under the [MIT License](https://opensource.org/licenses/MIT), which you can find in the [goindex-extended/LICENSE](https://github.com/jinoo2005609/goindex-extended/blob/master/LICENSE) file._**
