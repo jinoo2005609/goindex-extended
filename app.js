@@ -6099,7 +6099,7 @@ function onSearchResultItemClick(a_ele) {
   var dialog = mdui.dialog({
     title: "",
     content:
-      '<div class="mdui-text-center mdui-typo-title mdui-m-b-1">Getting Target Path...</div><div class="mdui-spinner mdui-spinner-colorful mdui-center"></div>',
+      '<div class="mdui-text-center mdui-typo-title mdui-m-b-1">대상 경로를 가져오는 중...</div><div class="mdui-spinner mdui-spinner-colorful mdui-center"></div>',
     history: !1,
     modal: !0,
     closeOnEsc: !0,
@@ -6110,37 +6110,37 @@ function onSearchResultItemClick(a_ele) {
       dialog.close();
       var href = `/${cur}:${data}${can_preview ? "?a=view" : ""}`;
       dialog = mdui.dialog({
-        title: '<i class="mdui-icon material-icons"></i>Target Path',
+        title: '<i class="mdui-icon material-icons"></i>대상 경로',
         content: `<a href="${href}">${data}</a>`,
         history: !1,
         modal: !0,
         closeOnEsc: !0,
         buttons: [
           {
-            text: "Open in same tab",
+            text: "이 탭에서 열기",
             onClick: function () {
               window.location.href = href;
             },
           },
           {
-            text: "Open in new tab",
+            text: "새 탭에서 열기",
             onClick: function () {
               window.open(href);
             },
           },
-          { text: "Cancel" },
+          { text: "취소" },
         ],
       });
       return;
     }
     dialog.close();
     dialog = mdui.dialog({
-      title: '<i class="mdui-icon material-icons">&#xe811;</i>Failed to get the target path',
-      content: "It may be because this item does not exist in the Folder! It may also be because the file [Shared with me] has not been added to Personal Drive!",
+      title: '<i class="mdui-icon material-icons">&#xe811;</i>대상 경로를 가져오는 데 실패하였습니다.',
+      content: "이 항목이 폴더에 없기 때문일 수 있습니다! [공유 문서함] 파일이 개인 드라이브에 추가되지 않았기 때문일 수도 있습니다!",
       history: !1,
       modal: !0,
       closeOnEsc: !0,
-      buttons: [{ text: "WTF ???" }],
+      buttons: [{ text: "확인" }],
     });
   });
 }
