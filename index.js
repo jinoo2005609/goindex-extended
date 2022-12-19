@@ -1,12 +1,12 @@
 const authConfig = {
   "siteName": "GoIndex Extended", // WebSite Name
-  "siteIcon": "https://raw.githubusercontent.com/cheems/goindex-extended/master/images/favicon-x.png", //or fevicon-x-light.png
+  "siteIcon": "https://raw.githubusercontent.com/jinoo2005609/goindex-extended/master/images/favicon-x.png", //or fevicon-x-light.png
   "version": "1.4.1", // VersionControl, do not modify manually
   // client_id & client_secret - PLEASE USE YOUR OWN!
   "client_id": "", // Client ID
   "client_secret": "", // Client Secret
   "refresh_token": "", // Refresh Token
-  "folder_list_url": "", // Folder Id List(Only if you have any folders in roots) - Sample: https://cdn.jsdelivr.net/gh/cheems/goindex-extended@master/sample-files/sample-folder-id-list.txt
+  "folder_list_url": "", // Folder Id List(Only if you have any folders in roots) - Sample: https://cdn.jsdelivr.net/gh/jinoo2005609/goindex-extended@master/sample-files/sample-folder-id-list.txt
   // Crypt Secret must be 32 characters long - Sample: "1234567890123456abcdefghIJKLMN!*" | don't use these characters (\,/,",') 
   "crypt_secret": "", // Crypt Secret (Required)* This is used to encrypt file ids
   /**
@@ -197,7 +197,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="//cdn.jsdelivr.net/gh/cheems/goindex-extended@4d1427558a21603e7c7e7dc986a154a9560f4835/app.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/jinoo2005609/goindex-extended@4d1427558a21603e7c7e7dc986a154a9560f4835/app.js"></script>
 </head>
 <body>
 </body>

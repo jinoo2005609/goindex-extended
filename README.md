@@ -1,10 +1,10 @@
-![Preview](https://raw.githubusercontent.com/cheems/goindex-extended/master/images/preview.png)
+![Preview](https://raw.githubusercontent.com/jinoo2005609/goindex-extended/master/images/preview.png)
 # GoIndex Extended - Google Drive Index
 
-[![Author: Cheems](https://img.shields.io/badge/Author-cheems-blue.svg)](https://github.com/cheems)
+[![Author: jinoo2005609](https://img.shields.io/badge/Author-jinoo2005609-blue.svg)](https://github.com/jinoo2005609)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Repo Size](https://img.shields.io/github/repo-size/cheems/goindex-extended?color=2fc29d&label=Repo%20Size)]()
-[![Last Commit](https://img.shields.io/github/last-commit/cheems/goindex-extended?label=Last%20Commit)]()
+[![Repo Size](https://img.shields.io/github/repo-size/jinoo2005609/goindex-extended?color=2fc29d&label=Repo%20Size)]()
+[![Last Commit](https://img.shields.io/github/last-commit/jinoo2005609/goindex-extended?label=Last%20Commit)]()
 [![Built with Cloudflare Workers](https://img.shields.io/badge/Built_with-Cloudflare%20Workers-1f425f?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAABmJLR0QA/wD/AP+gvaeTAAADOUlEQVQ4jXVUz2scVRz/vNnN7qY16TY1LmJbYTHGUEIMafGgpTnoQUV7sfoHSGvv/qjSy2KhNIV4EBFjqYIo6sGIePJiEUGw2hpLU0xLYhOsoY0l1U12Z74/e5jsZCPtwDvMm/c+8/n1XsD/nvonw4fveWbiJbjtbM15vHKNfju2I+rI29rUTTcbKz575qv2vVH7S/zR8JOB5D2/fnELEKoAqjCtho7OvdgyyHBU4V6F2h6ofUFfPzFyVzCUNx3Nb+3ONadO98P9JoQAIYCbKDz4XDBid1G4CFwkb6bjdwRLJvfuh/moiyA4bZL5ny5DOAVTQnB5KHQNXVwDAkThrPviz3c/vwHMz4zmTeVEulABE9D0Z0NwWYC22MUobN9X9kSlxQ4iMJKTPjHSkYElS8lhsDzi3JKgcE6+hNrxjJ0kgMQ7ctv2TDkznAXOCoj2N6L4EAAE/+bxruZKcgVqFVeFqwGqcQ6hv3TowF+Y2TUFSQZhApgCiG40z7/bBZdONwPSsZRE3Bc16vFbLlLJJIrA2N7vfGV6IYSagVHLpAoBtHpfrvex341Tmalk7S3EOBJB5KCzprTTjxpMTrRMDYMHJmH2awamhMK2voedVVs/dxE4y8t5ZwXW5LkqoIZQCmFDZSQJUEplmgKONE1oKlMdboYILKfWu6NQohz/E7+dtf+XD14AxyMZMyHEf09dhkpurR5psiynw9JYf1exyFdcrWLEMFYIsbjZcOWpyT9QmroAagysswqLK+c+7nFIEZoG4GZLWpC+qPfITN1Jj2lM0EQgRDCWvLG+g83TB5GsDqz7JWgu/LzoSkVwZj7AUut5c/nfCAC6G/MTmsisJgQlgZHAFKNIVo6C40yeC8/TtfNDGUhqzUz39eVTWWlDDWLCNWWBsUDFUH706TnE9QegaYIwxersjw2o5rIERWAsr4cPwRvOZuX48qeudsHEgI4Sbd6+q9LOyphmafHSQFu34KI/9IzVv73jraER3nBzu3f3/qto3ipnXrnj1qXvS1BLK5GeSwlKr971Cto5vvpdCNFrnVvvX4TEcxCag9CcNP47m9z4s8gki8pyFaJnofpieZzPte+/DbyhqHE2i7F2AAAAAElFTkSuQmCC)](https://workers.cloudflare.com/)
 [![Written in JavaScript](https://img.shields.io/badge/Written_in-JavaScript-000?logo=javascript&logoColor=000&labelColor=F7DF1E)](https://www.javascript.com/)
 
@@ -19,12 +19,12 @@ Combining the power of [Cloudflare Workers](https://workers.cloudflare.com/) and
 <h2><details>
 <summary>📸 Screenshots</summary>
 
-![Screenshot-1](https://raw.githubusercontent.com/cheems/goindex-extended/master/images/ss-1.png)
-![Screenshot-2](https://raw.githubusercontent.com/cheems/goindex-extended/master/images/ss-2.png)
-![Screenshot-3](https://raw.githubusercontent.com/cheems/goindex-extended/master/images/ss-3.png)
-![Screenshot-4](https://raw.githubusercontent.com/cheems/goindex-extended/master/images/ss-4.png)
-![Screenshot-5](https://raw.githubusercontent.com/cheems/goindex-extended/master/images/ss-5.png)
-![Screenshot-6](https://raw.githubusercontent.com/cheems/goindex-extended/master/images/ss-6.png)
+![Screenshot-1](https://raw.githubusercontent.com/jinoo2005609/goindex-extended/master/images/ss-1.png)
+![Screenshot-2](https://raw.githubusercontent.com/jinoo2005609/goindex-extended/master/images/ss-2.png)
+![Screenshot-3](https://raw.githubusercontent.com/jinoo2005609/goindex-extended/master/images/ss-3.png)
+![Screenshot-4](https://raw.githubusercontent.com/jinoo2005609/goindex-extended/master/images/ss-4.png)
+![Screenshot-5](https://raw.githubusercontent.com/jinoo2005609/goindex-extended/master/images/ss-5.png)
+![Screenshot-6](https://raw.githubusercontent.com/jinoo2005609/goindex-extended/master/images/ss-6.png)
 
 </details></h2>
 
@@ -83,17 +83,17 @@ Combining the power of [Cloudflare Workers](https://workers.cloudflare.com/) and
 
 ## 📖 Wiki
 **_Note: The Wiki will be added soon. Until then, you can check this out: [https://dudoo.me/wikis](https://dudoo.me/wikis).  
-If you are comfortable reading comments in the code, here you go: [goindex-extended/index.js](https://github.com/cheems/goindex-extended/blob/master/index.js). (Note: Don't edit the code after the [line:123](https://github.com/cheems/goindex-extended/blob/master/index.js#L123) unless you need to develop.)_**
+If you are comfortable reading comments in the code, here you go: [goindex-extended/index.js](https://github.com/jinoo2005609/goindex-extended/blob/master/index.js). (Note: Don't edit the code after the [line:123](https://github.com/jinoo2005609/goindex-extended/blob/master/index.js#L123) unless you need to develop.)_**
 
 ## 🚀 Quick Deployment
-**_Note: If you need the latest version, use index.js, which is in the root of the repo: [goindex-extended/index.js](https://github.com/cheems/goindex-extended/blob/master/index.js)._**
+**_Note: If you need the latest version, use index.js, which is in the root of the repo: [goindex-extended/index.js](https://github.com/jinoo2005609/goindex-extended/blob/master/index.js)._**
 - **_The Latest version of index.js will be added to the generator soon. Until then, you can use the generator for creating auth credetials, and then you can add them manually to the latest code which you can get from the file mentioned above._**
 1. Open the below Colab notebook in a new tab  
-   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cheems/goindex-extended/blob/master/template/GoIndex_Extended_Code_Generator_with_rclone_credentials.ipynb)
+   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jinoo2005609/goindex-extended/blob/master/template/GoIndex_Extended_Code_Generator_with_rclone_credentials.ipynb)
 2. Fill the fields in it on your choice and run the cell
 3. Download the txt file with the code generated by the notebook
 4. Deploy the code to [Cloudflare Workers](https://www.cloudflare.com/)
-5. If you added any folder to the index and you want the search function to work with folders as well, then check this out: [Configure Search Functionality for Folders](https://github.com/cheems/goindex-extended#-configure-search-functionality-for-folders)
+5. If you added any folder to the index and you want the search function to work with folders as well, then check this out: [Configure Search Functionality for Folders](https://github.com/jinoo2005609/goindex-extended#-configure-search-functionality-for-folders)
 
 ## 🕹 Deployment
 
@@ -112,7 +112,7 @@ If you are comfortable reading comments in the code, here you go: [goindex-exten
 13. Click on refresh and create OAuth client ID then click Done
 14. Click on newly created OAuth Client ID to see client id and secret
 15. Open the below Colab notebook(which is made for the ones who wish to use their own credentials) in a new tab  
-    [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cheems/goindex-extended/blob/master/template/GoIndex_Extended_Code_Generator_with_custom_credentials.ipynb)
+    [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jinoo2005609/goindex-extended/blob/master/template/GoIndex_Extended_Code_Generator_with_custom_credentials.ipynb)
 16. Copy your client id and client secret into the Colab notebook and fill the fields in it on your choice and run the cell
 17. Download the txt file with the code generated by the notebook
 18. Deploy the code to [Cloudflare Workers](https://workers.cloudflare.com/)
@@ -124,7 +124,7 @@ If you are comfortable reading comments in the code, here you go: [goindex-exten
 **_Note: If you didn't add any folder ids to the roots section in your index, then you don't need to go through this._**
 
 1. Open the following Colab notebook in a new tab  
-   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cheems/goindex-extended/blob/master/generators/Folder_Id_List_Generator.ipynb#scrollTo=vdf8HtfeVHPc)
+   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jinoo2005609/goindex-extended/blob/master/generators/Folder_Id_List_Generator.ipynb#scrollTo=vdf8HtfeVHPc)
 2. Run the cell which is highlighted; then a text box will be appeared
 3. Copy the entire index code from your Worker in Cloudflare and paste it into the provided text box
 4. Then this notebook will generate an encrypted folder id list for your index
@@ -133,8 +133,8 @@ If you are comfortable reading comments in the code, here you go: [goindex-exten
 6. Next, host that folder id list in a text file (publicly) on GitHub or somewhere else you prefer
    - GitHub is recommended
    - You can make the file available public since it is fully encrypted
-   - Sample folder id list file can be found here: [goindex-extended/sample-files/sample-folder-id-list.txt](https://github.com/cheems/goindex-extended/blob/master/sample-files/sample-folder-id-list.txt)
-7. Get the raw link to that file and put it in the index code: [9th line](https://github.com/cheems/goindex-extended/blob/master/index.js#L9)
+   - Sample folder id list file can be found here: [goindex-extended/sample-files/sample-folder-id-list.txt](https://github.com/jinoo2005609/goindex-extended/blob/master/sample-files/sample-folder-id-list.txt)
+7. Get the raw link to that file and put it in the index code: [9th line](https://github.com/jinoo2005609/goindex-extended/blob/master/index.js#L9)
    - CDN URLs can also be used (jsDeliver.com, raw.githack.com)
 8. finally, redeploy the code; now search function will start working with folder Root type as well
 
@@ -156,4 +156,4 @@ If you are comfortable reading comments in the code, here you go: [goindex-exten
 
 ## ⚖ LICENSE
 
-**_[GoIndex - Extended](https://github.com/cheems/goindex-extended) by [Cheems(AKA Dudu)](https://github.com/cheems/) is licensed under the [MIT License](https://opensource.org/licenses/MIT), which you can find in the [goindex-extended/LICENSE](https://github.com/cheems/goindex-extended/blob/master/LICENSE) file._**
+**_[GoIndex - Extended](https://github.com/jinoo2005609/goindex-extended) by [jinoo2005609(AKA Dudu)](https://github.com/jinoo2005609/) is licensed under the [MIT License](https://opensource.org/licenses/MIT), which you can find in the [goindex-extended/LICENSE](https://github.com/jinoo2005609/goindex-extended/blob/master/LICENSE) file._**

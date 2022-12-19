@@ -7,11 +7,11 @@ const html = `<!DOCTYPE html>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicons -->
-    <link rel="shortcut icon" href="https://raw.githubusercontent.com/cheems/goindex-extended/master/images/favicon-x.png" type="image/png">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/jinoo2005609/goindex-extended/master/images/favicon-x.png" type="image/png">
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="https://rawcdn.githack.com/cheems/GDIndex/e6eabcf1e0ee3b232fa218be51d35ff62100144f/css/demo-preview/style-demo.css"/>
-    <link rel="stylesheet" type="text/css" href="https://rawcdn.githack.com/cheems/GDIndex/e6eabcf1e0ee3b232fa218be51d35ff62100144f/css/demo-preview/style.css"/>
+    <link rel="stylesheet" type="text/css" href="https://rawcdn.githack.com/jinoo2005609/GDIndex/e6eabcf1e0ee3b232fa218be51d35ff62100144f/css/demo-preview/style-demo.css"/>
+    <link rel="stylesheet" type="text/css" href="https://rawcdn.githack.com/jinoo2005609/GDIndex/e6eabcf1e0ee3b232fa218be51d35ff62100144f/css/demo-preview/style.css"/>
 
 </head>
 <body style="margin: 0;">
@@ -30,13 +30,13 @@ const html = `<!DOCTYPE html>
 <header class="header-half-demo">
     <div class="header-half-demo__left">
         <a class="underlineNone" href="https://dark-demo.dudoo.workers.dev" target="_blank">
-            <img class="cover demo-image" src="https://raw.githubusercontent.com/cheems/goindex-extended/master/images/ss-1.png" alt="Dark Theme">
+            <img class="cover demo-image" src="https://raw.githubusercontent.com/jinoo2005609/goindex-extended/master/images/ss-1.png" alt="Dark Theme">
             <h2 class="title title--h6 title__demo">Dark Theme</h2>
         </a>
     </div>
     <div class="header-half-demo__right">
         <a class="underlineNone" href="https://light-demo.dudoo.workers.dev" target="_blank">
-            <img class="cover demo-image" src="https://raw.githubusercontent.com/cheems/goindex-extended/master/images/ss-5.png" alt="Light Theme">
+            <img class="cover demo-image" src="https://raw.githubusercontent.com/jinoo2005609/goindex-extended/master/images/ss-5.png" alt="Light Theme">
             <h2 class="title title--h6 title__demo">Light Theme</h2>
         </a>
     </div>
@@ -47,10 +47,10 @@ const html = `<!DOCTYPE html>
 <canvas class="elastic-border"></canvas>
 
 <!-- JavaScripts -->
-<script src="https://rawcdn.githack.com/cheems/GDIndex/e6eabcf1e0ee3b232fa218be51d35ff62100144f/js/demo-preview/jquery-3.4.1.min.js"></script>
-<script src="https://rawcdn.githack.com/cheems/GDIndex/e6eabcf1e0ee3b232fa218be51d35ff62100144f/js/demo-preview/plugins.js"></script>
-<script src="https://rawcdn.githack.com/cheems/GDIndex/e6eabcf1e0ee3b232fa218be51d35ff62100144f/js/demo-preview/common.js"></script>
-<script src="https://rawcdn.githack.com/cheems/GDIndex/e6eabcf1e0ee3b232fa218be51d35ff62100144f/js/demo-preview/plugins-demo.js"></script>
+<script src="https://rawcdn.githack.com/jinoo2005609/GDIndex/e6eabcf1e0ee3b232fa218be51d35ff62100144f/js/demo-preview/jquery-3.4.1.min.js"></script>
+<script src="https://rawcdn.githack.com/jinoo2005609/GDIndex/e6eabcf1e0ee3b232fa218be51d35ff62100144f/js/demo-preview/plugins.js"></script>
+<script src="https://rawcdn.githack.com/jinoo2005609/GDIndex/e6eabcf1e0ee3b232fa218be51d35ff62100144f/js/demo-preview/common.js"></script>
+<script src="https://rawcdn.githack.com/jinoo2005609/GDIndex/e6eabcf1e0ee3b232fa218be51d35ff62100144f/js/demo-preview/plugins-demo.js"></script>
 
 </body>
 </html>`
