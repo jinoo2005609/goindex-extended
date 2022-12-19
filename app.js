@@ -5838,7 +5838,7 @@ function list(path) {
     successResultCallback,
     function (path) {
       $("#spinner").remove();
-      var pass = prompt("Directory encrypted, Please enter the Password", "");
+      var pass = prompt("폴더가 암호화되어 있습니다. 비밀번호를 입력하세요.", "");
       localStorage.setItem("password" + path, pass);
       if (pass != null && pass != "") {
         list(path);
